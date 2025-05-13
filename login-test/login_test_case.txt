@@ -1,0 +1,11 @@
+Test Case ID: TC-001
+Title: Valid Login Test
+Preconditions: User is on the login page
+Test Steps:
+  1. Enter valid username (e.g., servan_test)
+  2. Enter valid password (e.g., Test1234!)
+  3. Click the login button
+
+Expected Result:
+  - User should be successfully logged in and redirected to the dashboard.
+
