@@ -1,0 +1,25 @@
+Bug Report
+
+Title: Incorrect login with valid username and invalid password shows error message
+
+Environment:
+- Browser: Chrome (v124)
+- OS: Windows 10
+- URL: https://practicetestautomation.com/practice-test-login/
+
+Steps to Reproduce:
+1. Open the login page
+2. Enter username: student
+3. Enter password: wrongPassword123
+4. Click on the Submit button
+
+Expected Result:
+- Error message should say: “Your password is invalid!”
+
+Actual Result:
+- Error message appears correctly: “Your password is invalid!”
+
+Status: PASS (Bug is not present. This is a negative test case.)
+
+Severity: N/A  
+Priority: N/A  
