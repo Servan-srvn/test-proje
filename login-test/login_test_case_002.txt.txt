@@ -1,0 +1,13 @@
+Test Case ID: TC_LOGIN_002
+Title: Login with invalid password
+Precondition: User is on the login page
+
+Test Steps:
+1. Navigate to https://practicetestautomation.com/practice-test-login/
+2. Enter username: student
+3. Enter password: wrongPassword123
+4. Click on the “Submit” button
+
+Expected Result:
+- An error message is displayed: “Your password is invalid!”
+- User stays on the login page
