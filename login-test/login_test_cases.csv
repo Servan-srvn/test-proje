@@ -1,0 +1,4 @@
+TC ID,Test Scenario,Test Steps,Expected Result,Actual Result,Status
+TC_LOGIN_001,Successful login with valid credentials,"1. Go to login page
+2. Enter student and Password123
+3. Click Submit",Logged in successfully,,
